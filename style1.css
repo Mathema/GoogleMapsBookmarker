@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#map {
+    height: 400px;
+    width: 500px;
+    margin-top: 30px;
+}
+.header{
+
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-image: url("skyline.png");
+    background-attachment: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-nav{
+    background: rgba(0,0,0,.2);
+    width: 100%;
+    z-index: 1;
+    float: right;
+    margin: 0;
+    text-align: right;
+   
+}
+.header-nav li, .header-nav li a{
+    z-index: 2;
+    opacity: 1;
+    display: inline;
+    margin-right: 30px;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+#bookmarks{
+    float: left;
+    border-right: solid black 1px;
+    width: 20%;
+    margin-top: 10px;
+}
+#bookmarks li{
+    padding: 30px;
+}
+ul{
+    margin-top: 10px;
+}
